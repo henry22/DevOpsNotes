@@ -194,7 +194,7 @@ More on launch template: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2
 
 - Create a Launch template
 
-    ami: use : ami-0b55fc9b052b03618 (#   Free Tier AMI: Amazon Linux 2 AMI (HVM) - Kernel 5.10, SSD Volume Type )
+    ami: use : a Free Tier AMI: Amazon Linux 2 AMI (HVM) - Kernel 5.10, SSD Volume Type
 
     instance type: t2.micro (free-tier)
 
