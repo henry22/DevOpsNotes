@@ -106,7 +106,6 @@ index c9d4972..854fed1 100644
 +++ b/k8s-specifications/vote-service.yaml
 @@ -6,12 +6,28 @@ metadata:
    name: vote
-   namespace: vote
  spec:
 -  type: NodePort
 +  type: ClusterIP
@@ -129,7 +128,6 @@ metadata:
   labels:
     app: vote
   name: vote
-  namespace: vote
 spec:
   type: ClusterIP
   ports:
@@ -153,7 +151,6 @@ apiVersion: projectcontour.io/v1
 kind: HTTPProxy
 metadata:
   name: vote-proxy
-  namespace: vote
   labels:
     app: vote
 spec:
