@@ -15,8 +15,11 @@ kubectl proxy --port=8080
 and then you can access your cluster via the API
 
 ```
-http://localhost:8080/api/v1/proxy/namespaces/<NAMESPACE>/services/<SERVICE-NAME>:<PORT-NAME>/
+http://localhost:8080/api/v1/namespaces/<NAMESPACE>/services/<SERVICE-NAME>:<PORT-NAME>/proxy/
+# for example the vote service on port 5000
+http://localhost:8080/api/v1/namespaces/default/services/vote:5000/proxy/
 ```
+
 However, there are a few scenarios that you would use this:
 * Debugging your services, or connecting to them directly from your laptop for some reason
 
