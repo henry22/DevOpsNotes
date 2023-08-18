@@ -16,15 +16,14 @@ This is the hands-on for the Jiangren CDN project.
 
 4. In "Origin Domain name", input "jiangren.com.au"
 
-5. In "HTTPS Only", select "Origin Protocol Policy"
+5. In "Cache Policy", choose "CachingOptimized"
+6. In "Web Application Firewall (WAF)", choose "Enable Security Protection"
 
-6. In "Compress Objects Automatically", select "yes"
+8. Click "Create Distribution" button in the bottom right to create a Cloudfront distribution
 
-7. Click "Create Distribution" button in the bottom right to create a Cloudfront distribution
+9. Wait util the distribution status is "Deployed" (it takes about 10 minutes)
 
-8. Wait util the distribution status is "Deployed" (it takes about 10 minutes)
-
-9. Open the domain name "e.g. xxx.cloudfront.net" to confirm you can get a jiangren website
+10. Open the domain name "e.g. xxx.cloudfront.net" to confirm you can get a jiangren website
 
 ![Alt text](images/CDN1.png?raw=true)
 
