@@ -2,7 +2,9 @@
 
 Book by Andrew S. Tanenbaum
 
-https://www.mbit.edu.in/wp-content/uploads/2020/05/Computer-Networks-5th-Edition.pdf
+or google: computer network Andrew S. Tanenbaum 5th file:pdf
+
+[https://www.mbit.edu.in/wp-content/uploads/2020/05/Computer-Networks-5th-Edition.pdf](https://www.cs.csubak.edu/~jyang/Computer-Networks---A-Tanenbaum---5th-edition.pdf)
 
 CDN, page 735
 
